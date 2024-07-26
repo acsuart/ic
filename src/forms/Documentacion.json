@@ -1,0 +1,66 @@
+[ "Respuesta Paso 1"]
+{
+    "Domicilio": {
+        "calle": "Lomas 89",
+        "clienteId": 100290,
+        "colonia": "Lomas",
+        "cp": "09888",
+        "delMun": "Miguel  Hidalgo",
+        "estado": "CIUDAD DE MéXICO"
+    },
+    "code": "201",
+    "historicoEstadoId": 2,
+    "mensaje": "Registro exitoso",
+    "status": "Success"
+}
+{
+    "Geolocalizacion": {
+        "accuracy": "5.0000000000",
+        "dispositivo": "SIMULATOR IOS",
+        "fechaRegistro": "2024-03-12 12:03:19",
+        "latitude": "37.0000000000",
+        "longitude": "-122.0000000000",
+        "sistemaOperativo": "IOS"
+    },
+    "Usuario": {
+        "apMat": "LOERA",
+        "apPat": "SHACUR",
+        "boolBloqueado": 0,
+        "boolCliente": 1,
+        "email": "gibran@gmail.com",
+        "n": 1,
+        "nombres": "GIBRAN",
+        "usuarioId": 1097
+    },
+    "boolCompletado": 0,
+    "code": "201",
+    "historicoEstadoId": 2,
+    "mensaje": "Ingreso exitoso",
+    "registroAcceso": null,
+    "status": "Success",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MTAyNjY1OTksIm5iZiI6MTcxMDI2NjU5OSwiZXhwIjoxNzEwMjczNzk5LCJqdGkiOiIwMzE5ZDI2Y2EzODJiYWFkODY2NmE4ODRlMzM4OWMxYzFhZDA5Nzc4IiwiYXVkIjoiMTBlMjNiMzQ5MDUxMjRlZTcyOTFlZjU2YmQ0ZWQzODQxNzYxOWM5YyIsImRhdGEiOnsiaWQiOjEwOTcsIm5hbWUiOiI5ZDk4NTllZjEwMWU2OWQwYjY4OTUyNDQ3Njc2MDYwYTM1OTFkYzQ3In19.puDmbtf-rtpAK-TOHP7aJqN9HUFEzzldC8f5vR5A9-A"
+}
+
+
+
+
+{
+    "array_beneficiarios" : [
+    {
+    "apPat":"FULANO",
+    "apMat":"SUTANO",
+    "nombres":"NOMBRE",
+    "parentesco":"TIO",
+    "porcentaje":"50",
+    "telefono":"9945454545"
+    },
+    {
+    "apPat":"PERENGANO",
+    "apMat":"PRUEBA",
+    "nombres":"NOMBRE",
+    "parentesco":"AMIGO",
+    "porcentaje":"40",
+    "telefono":"5874236598"
+    }
+    ]
+   }

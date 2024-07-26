@@ -1,0 +1,135 @@
+{
+    "config": {
+        "adapter": [
+            "xhr",
+            "http"
+        ],
+        "data": "{\"curp\":\"AAAA931009HHHHHHHH\",\"rfc\":\"AAAA931009HHH\",\"tipop\":\"PF\",\"telfijo\":\"5523565555\",\"celular\":\"5523555555\"}",
+        "env": {
+            "Blob": [Function Blob
+            ],
+            "FormData": [Function FormData
+            ]
+        },
+        "headers": [Object
+        ],
+        "maxBodyLength": -1,
+        "maxContentLength": -1,
+        "method": "post",
+        "timeout": 0,
+        "transformRequest": [
+            [Function transformRequest
+            ]
+        ],
+        "transformResponse": [
+            [Function transformResponse
+            ]
+        ],
+        "transitional": {
+            "clarifyTimeoutError": false,
+            "forcedJSONParsing": true,
+            "silentJSONParsing": true
+        },
+        "url": "https://inmobicapital.com:9589/test/usuario/1109/fiscales",
+        "validateStatus": [Function validateStatus
+        ],
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN"
+    },
+    "data": {
+        "code": "201",
+        "datosFiscales": {
+            "clienteId": 100307,
+            "curp": "AAAA931009HHHHHHHH",
+            "fechaNac": "1993-10-09",
+            "fechaRegistro": "2024-03-14 16:12:03",
+            "nacionalidad": "MEXICANO",
+            "rfc": "AAAA931009HHH",
+            "telFijo": "",
+            "telMovil": "5532555555",
+            "tipo_persona": "PF"
+        },
+        "historicoEstadoId": 3,
+        "mensaje": "Registro exitoso",
+        "status": "Success"
+    },
+    "headers": {
+        "access-control-allow-headers": "Origin, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With, Accept",
+        "access-control-allow-methods": "GET, POST, PUT, DELETE",
+        "access-control-allow-origin": "*",
+        "connection": "Keep-Alive",
+        "content-length": "316",
+        "content-type": "application/json; charset=UTF-8",
+        "date": "Thu, 14 Mar 2024 22:12:03 GMT",
+        "keep-alive": "timeout=4",
+        "server": "Apache/2.4.18 (Ubuntu)"
+    },
+    "request": {
+        "DONE": 4,
+        "HEADERS_RECEIVED": 2,
+        "LOADING": 3,
+        "OPENED": 1,
+        "UNSENT": 0,
+        "_aborted": false,
+        "_cachedResponse": undefined,
+        "_hasError": false,
+        "_headers": {
+            "accept": "application/json, text/plain, */*",
+            "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MTA0NTQwNDAsIm5iZiI6MTcxMDQ1NDA0MCwiZXhwIjoxNzEwNDYxMjQwLCJqdGkiOiI3NWM1YjI5YjJjMzEyNDQ4MmFjZjJhNmJmZDRlYzBmZjNkYzU5N2U5IiwiYXVkIjoiOWZlNzk2YjI1NzEzZTFiMWMwNGM4NDFiMzUxNTA2ZDI4ZWI5Yjg2OCIsImRhdGEiOnsiaWQiOjExMDksIm5hbWUiOiIyZjcwZTIzOWM3YTVkODAzODQyNzViZTQ1MTA3NWU0Y2I3MTI1ZTllIn19.Z1mtvSbf336eiiEQeYsSOgXiPRgT6jWrtk44Duh2X08",
+            "content-type": "application/x-www-form-urlencoded"
+        },
+        "_incrementalEvents": false,
+        "_lowerCaseResponseHeaders": {
+            "access-control-allow-headers": "Origin, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With, Accept",
+            "access-control-allow-methods": "GET, POST, PUT, DELETE",
+            "access-control-allow-origin": "*",
+            "connection": "Keep-Alive",
+            "content-length": "316",
+            "content-type": "application/json; charset=UTF-8",
+            "date": "Thu, 14 Mar 2024 22:12:03 GMT",
+            "keep-alive": "timeout=4",
+            "server": "Apache/2.4.18 (Ubuntu)"
+        },
+        "_method": "POST",
+        "_perfKey": "network_XMLHttpRequest_https://inmobicapital.com:9589/test/usuario/1109/fiscales",
+        "_performanceLogger": {
+            "_closed": false,
+            "_extras": [Object
+            ],
+            "_isGlobalLogger": true,
+            "_pointExtras": [Object
+            ],
+            "_points": [Object
+            ],
+            "_timespans": [Object
+            ]
+        },
+        "_requestId": null,
+        "_response": "{\"code\":\"201\",\"status\":\"Success\",\"mensaje\":\"Registro exitoso\",\"historicoEstadoId\":3,\"datosFiscales\":{\"clienteId\":100307,\"rfc\":\"AAAA931009HHH\",\"curp\":\"AAAA931009HHHHHHHH\",\"tipo_persona\":\"PF\",\"nacionalidad\":\"MEXICANO\",\"fechaNac\":\"1993-10-09\",\"telFijo\":\"\",\"telMovil\":\"5532555555\",\"fechaRegistro\":\"2024-03-14 16:12:03\"}}",
+        "_responseType": "",
+        "_sent": true,
+        "_subscriptions": [],
+        "_timedOut": false,
+        "_trackingName": "unknown",
+        "_url": "https://inmobicapital.com:9589/test/usuario/1109/fiscales",
+        "readyState": 4,
+        "responseHeaders": {
+            "Access-Control-Allow-Headers": "Origin, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With, Accept",
+            "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE",
+            "Access-Control-Allow-Origin": "*",
+            "Connection": "Keep-Alive",
+            "Content-Length": "316",
+            "Content-Type": "application/json; charset=UTF-8",
+            "Date": "Thu, 14 Mar 2024 22:12:03 GMT",
+            "Keep-Alive": "timeout=4",
+            "Server": "Apache/2.4.18 (Ubuntu)"
+        },
+        "responseURL": "https://inmobicapital.com:9589/test/usuario/1109/fiscales",
+        "status": 201,
+        "timeout": 0,
+        "upload": {},
+        "withCredentials": true
+    },
+    "status": 201,
+    "statusText": undefined
+}
